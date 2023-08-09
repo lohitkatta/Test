@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<fallback useFallback='true'/>
+<step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setShadowDOM' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/posvforcesite/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"lohit.karthik@kirbycorp.com.uatfull"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='emailbox(&quot;username&quot;)' selected='true'/>
+   <accessor type='setValue' value='emailbox(&quot;input mb16 mt8 r4 username wide&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(0, _in(div(&quot;username_container&quot;)))' selected='false'/>
+   <accessor type='setValue' value='emailbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Kirby@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;password&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;input mb16 mt8 password r4 wide&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;pw&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;Login&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;button primary r4 wide&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Log In to Sandbox&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/posvforcesite/secur/frontdoor.jsp?sid=00D7h0000004m7H%21AQEAQFtfxrUVOEqM88zj1m_DJCDPBwPhYL0l9h0fh8BhBs3lQVJFa6UPI0lNEAgQsytetri_bEg_DQogzCA2HzkjATuixz_a&amp;retURL=%2Fposvforcesite%2Fapex%2FCommunitiesLanding&amp;apv=1&amp;allp=1&amp;untethered=&amp;cshc=h000005OnbZh0000004m7H&amp;refURL=https%3A%2F%2Fkirbycorp--uatfull.sandbox.my.site.com%2Fposvforcesite%2Fsecur%2Ffrontdoor.jsp"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/pos/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search by name, customer ID, contact, email, phone, address.&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-size_9-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"test ss"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;lohit kk&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-right_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;lohit kk |sai@gmail.com&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_medium slds-size_8-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"15E2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;15E2E1&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;textOverFlow[2]&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;mediumFontSize slds-listbox__option-text slds-listbox__option-text_entity slds-m-bottom_xx-small slds-m-left_xxx-small[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;15E2E1&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(14)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_medium slds-size_8-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"53215"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;MTU Alternator Shaft Bearing&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(1, _in(span(&quot;slds-media__body&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;slds-truncate[10]&quot;)' selected='true'/>
+   <accessor type='click' value='span(0, _in(button(&quot;combobox-button-187&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;delivery&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;slds-combobox__input slds-combobox__input-value slds-input_faux[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(button(&quot;In-Store Pickup&quot;)))' selected='false'/>
+   <accessor type='click' value='span(&quot;In-Store Pickup&quot;)' selected='false'/>
+   <accessor type='click' value='span(39)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Shipping&quot;)' selected='true'/>
+   <accessor type='click' value='span(&quot;slds-truncate[12]&quot;)' selected='false'/>
+   <accessor type='click' value='span(&quot;Shipping[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(46)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(21)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Checkout&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(22)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;combobox-button-252&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-combobox__input slds-input_faux[2]&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;Shipping Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Select Delivery Mode[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Select Delivery Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;dollars1 slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-left_x-large slds-m-top_xx-small slds-size_5-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"20"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-255&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;Shipping Charges&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"412,120"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;deliveryadd&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-size_9-of-12[1]&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(0, _in(custom(&quot;lightning-layout-item&quot;, &quot;2DELIVERY MODE&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(&quot;2DELIVERY MODE&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(63)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='radio(&quot;Cash-228&quot;)' selected='true'/>
+   <accessor type='click' value='radio(&quot;fav_language&quot;)' selected='false'/>
+   <accessor type='click' value='radio(&quot;Cash&quot;)' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;slds-p-around_small&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;Cash&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Simulate Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Complete Payment&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(12)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Ship Confirm&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;New Sales Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(4)' selected='false'/>
+</dialect>
+</step>
+</testcase>

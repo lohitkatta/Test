@@ -90,4 +90,129 @@
    <accessor type='clickXY' value='div(40)' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Add New&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;addNewButton btnOutlineGreen slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInput slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-m-top_medium slds-p-right_small slds-size_6-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 1)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"ten"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-151&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;FirstName&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInput slds-form-element[2]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-m-top_medium slds-p-left_small slds-size_6-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 3)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"aug"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-153&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;LastName&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInput slds-form-element[4]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-p-right_small slds-size_6-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"tenaug@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-158&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;email&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInput isInputValid slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-p-left_small slds-size_6-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 7)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"7827482748"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-163&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[4]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(4)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"350,251"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;addNewContactBody right-panel-body slds-panel__body slds-truncate&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(&quot;*required fields&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(42)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Add Contact&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(0, _in(link(&quot;Edit&quot;)))' selected='true'/>
+   <accessor type='click' value='span(&quot;Edit&quot;)' selected='false'/>
+   <accessor type='click' value='span(33)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInput isInputValid slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-p-left_small slds-size_6-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 7)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"7827482750"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-190&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[4]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(4)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"354,385"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;addNewContactBody right-panel-body slds-panel__body slds-truncate&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(&quot;* required fields&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(42)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Save changes&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
 </testcase>

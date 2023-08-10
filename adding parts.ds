@@ -56,10 +56,10 @@
 </step>
 <step action='setValue' value='"test ss"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
-   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(0)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='wait' value='2000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

@@ -176,13 +176,13 @@
 </step>
 <step action='drag' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='drag' value='button(&quot;combobox-button-222&quot;)' selected='true'/>
+   <accessor type='drag' value='button(&quot;Select Delivery Mode&quot;)' selected='true'/>
    <accessor type='drag' value='button(&quot;slds-combobox__input slds-input_faux[2]&quot;)' selected='false'/>
    <accessor type='drag' value='button(&quot;Shipping Mode&quot;)' selected='false'/>
    <accessor type='drag' value='button(0, _in(div(&quot;slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right[2]&quot;)))' selected='false'/>
    <accessor type='drag' value='button(0, _in(div(&quot;Select Delivery Mode[1]&quot;)))' selected='false'/>
-   <accessor type='drag' value='button(&quot;Select Delivery Mode&quot;)' selected='false'/>
    <accessor type='drag' value='button(8)' selected='false'/>
+   <accessor type='drag' value='button(&quot;combobox-button-222&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='drop' value='"181,494"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

@@ -142,10 +142,10 @@
    <accessor type='clickXY' value='div(40)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"3,2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"3,2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(4)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -164,16 +164,10 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"5,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"5,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
-</dialect>
-</step>
-<step action='mouseDownXY' value='"8,4"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -206,16 +200,10 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"5,3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"5,3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
-</dialect>
-</step>
-<step action='mouseDownXY' value='"1,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
 <step action='clickXY' value='"140,12"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -226,10 +214,10 @@
    <accessor type='clickXY' value='div(40)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"2,7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"2,7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(4)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -248,10 +236,10 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"6,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"6,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
 <step action='clickXY' value='"3,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -268,10 +256,10 @@
    <accessor type='click' value='paragraph(7)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"3,6"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"3,6"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(4)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -295,10 +283,10 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"6,9"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"6,9"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
 <step action='drop' value='"934,36"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

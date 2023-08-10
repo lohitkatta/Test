@@ -62,10 +62,10 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"5,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -75,12 +75,6 @@
    <accessor type='click' value='paragraph(1, _in(div(&quot;alignmentOfName&quot;)))' selected='false'/>
    <accessor type='click' value='paragraph(1, _in(div(&quot;524085-Test SS[1]&quot;)))' selected='false'/>
    <accessor type='click' value='paragraph(5)' selected='false'/>
-</dialect>
-</step>
-<step action='mouseDownXY' value='"11,6"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[4]&quot;)' selected='true'/>
-   <accessor type='mouseDownXY' value='svg(11)' selected='false'/>
 </dialect>
 </step>
 </testcase>

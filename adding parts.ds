@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setShadowDOM' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/posvforcesite/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"lohit.karthik@kirbycorp.com.uatfull"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='emailbox(&quot;username&quot;)' selected='true'/>
+   <accessor type='setValue' value='emailbox(&quot;input mb16 mt8 r4 username wide&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(0, _in(div(&quot;username_container&quot;)))' selected='false'/>
+   <accessor type='setValue' value='emailbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Kirby@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;password&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;input mb16 mt8 password r4 wide&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;pw&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;Login&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;button primary r4 wide&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Log In to Sandbox&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/pos/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search by name, customer ID, contact, email, phone, address.&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-size_9-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"test ss"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"3,2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='path(5)' selected='true'/>
+</dialect>
+</step>
+<step action='drop' value='"1434,142"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content community_layout-column_column[1]&quot;)))' selected='true'/>
+   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_medium slds-size_8-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"15e2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;TranSynd 668 Transmission Fluid, 1 Gallon, Backwards Compatible with 295 and 468&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize textOverFlow[2]&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(1, _in(span(&quot;slds-media__body[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph([&quot;TranSynd 668 Transmission Fluid, 1 &quot;])' selected='false'/>
+   <accessor type='click' value='paragraph(15)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_medium slds-size_8-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"29556"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;Allison Transmission A63 Transmission Control Module (TCM)&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize textOverFlow[13]&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(1, _in(span(&quot;slds-media__body[13]&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph([&quot;Allison Transmission A63 Transmissi&quot;])' selected='false'/>
+   <accessor type='click' value='paragraph(37)' selected='false'/>
+</dialect>
+</step>
+</testcase>

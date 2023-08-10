@@ -185,10 +185,32 @@
    <accessor type='drag' value='button(&quot;combobox-button-222&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='drop' value='"181,494"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content community_layout-column_column[1]&quot;)))' selected='true'/>
-   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
+   <accessor type='click' value='button(&quot;combobox-button-218&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-combobox__input slds-input_faux[2]&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;Shipping Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Select Delivery Mode[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Select Delivery Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;combobox-button-218&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-combobox__input slds-input_faux[2]&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;Shipping Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Select Delivery Mode[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Select Delivery Mode&quot;)' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;slds-media__body&quot;)' selected='true'/>
+   <accessor type='click' value='span(24)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -199,6 +221,37 @@
 </dialect>
 </step>
 <step action='setValue' value='"20"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-221&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;Shipping Charges&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"423,112"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;deliveryadd&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-size_9-of-12[1]&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(0, _in(custom(&quot;lightning-layout-item&quot;, &quot;2DELIVERY MODE&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(&quot;2DELIVERY MODE&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(61)' selected='false'/>
+</dialect>
+</step>
+<step action='drop' value='"181,494"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content community_layout-column_column[1]&quot;)))' selected='true'/>
+   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;dollars1 slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-left_x-large slds-m-top_xx-small slds-size_5-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"20"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-225&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>

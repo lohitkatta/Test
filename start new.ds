@@ -217,12 +217,6 @@
    <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='svg(4)' selected='true'/>
-   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
-</dialect>
-</step>
 <step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>

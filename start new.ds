@@ -139,4 +139,20 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Start New&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;addNewButton btnOutlineGreen slds-m-left_medium&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Yes&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(21)' selected='false'/>
+</dialect>
+</step>
 </testcase>

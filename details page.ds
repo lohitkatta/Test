@@ -82,7 +82,7 @@
    <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
-<step action='clickXY' value='&quot;162,14&quot;  ' type='web' desc='initial 13' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='clickXY' value='&quot;162,14&quot;  ' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='clickXY' value='div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)' selected='true'/>
    <accessor type='clickXY' value='div(2, _in(span(&quot;slds-media__body&quot;)))' selected='false'/>

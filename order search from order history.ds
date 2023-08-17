@@ -139,6 +139,22 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_medium slds-size_8-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"29556884"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
@@ -153,6 +169,27 @@
    <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
+   <accessor type='click' value='button(11)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"252,338"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;c-pos_custom-spinner&quot;, 1)' selected='true'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='selecting from dropdown' isThinkTime='false' isCommented='true' sequence='0'>

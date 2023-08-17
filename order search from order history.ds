@@ -155,62 +155,6 @@
    <accessor type='setValue' value='textbox(3)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
-   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
-   <accessor type='click' value='button(&quot;Search &amp; Add&quot;)' selected='false'/>
-   <accessor type='click' value='button(11)' selected='false'/>
-</dialect>
-</step>
 <step action='click' value='""' type='web' desc='selecting from dropdown' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;29556884&quot;)' selected='true'/>
@@ -528,10 +472,11 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(&quot;slds-day[31]&quot;)' selected='true'/>
+   <accessor type='click' value=' span(&quot;slds-day[25]&quot;) ' selected='true'/>
    <accessor type='click' value='span(0, _in(cell(&quot;26[1]&quot;)))' selected='false'/>
    <accessor type='click' value='span(&quot;26[1]&quot;)' selected='false'/>
    <accessor type='click' value='span(44)' selected='false'/>
+   <accessor type='click' value='span(&quot;slds-day[31]&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

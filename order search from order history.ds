@@ -384,7 +384,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 2)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"15E2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='setValue' value='"15E2"' type='web' desc='re' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-332&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>

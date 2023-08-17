@@ -139,4 +139,147 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(19)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Checkout&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(20)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='radio(&quot;Cash-191&quot;)' selected='true'/>
+   <accessor type='click' value='radio(&quot;fav_language&quot;)' selected='false'/>
+   <accessor type='click' value='radio(&quot;Cash&quot;)' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;slds-p-around_small&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0, _in(div(&quot;Cash&quot;)))' selected='false'/>
+   <accessor type='click' value='radio(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Simulate Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Complete Payment&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(8)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Ship Confirm&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled[2]&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;order__item&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;slds-tabs_default__link[2]&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;javascript:void(0)[2]&quot;)' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;Order History&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(listItem(&quot;slds-has-focus slds-tabs_default__item&quot;)))' selected='false'/>
+   <accessor type='click' value='link(&quot;Order History&quot;)' selected='false'/>
+   <accessor type='click' value='link(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;pointerEVent textColorGreen&quot;)' selected='true'/>
+   <accessor type='click' value='link(0, _in(div(&quot;30261576&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(div(&quot;slds-truncate&quot;)))' selected='false'/>
+   <accessor type='click' value='link(&quot;30261576&quot;)' selected='false'/>
+   <accessor type='click' value='link(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;mediumFontSize order-status-link&quot;)' selected='true'/>
+   <accessor type='click' value='link(0, _in(div(&quot;slds-truncate[7]&quot;)))' selected='false'/>
+   <accessor type='click' value='link(0, _in(div(&quot;Return[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='link(&quot;Return&quot;)' selected='false'/>
+   <accessor type='click' value='link(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerInputAddress2 returnLineItems slds-form-element[2]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;slds-m-right_small slds-size_5-of-12[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 4)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-394&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;stockFee&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Confirm&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Initiate Refund&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(13)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;New SalesOrder&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(5)' selected='false'/>
+</dialect>
+</step>
 </testcase>

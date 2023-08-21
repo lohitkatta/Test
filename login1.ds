@@ -7,7 +7,7 @@
    <accessor type='getShadowDOM' value='  true' selected='true'/>
 </dialect>
 </step>
-<step action='navigateTo' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/posvforcesite/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>

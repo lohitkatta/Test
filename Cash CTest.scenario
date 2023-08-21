@@ -37,6 +37,11 @@
     <resource name="Cash- Clear Cart.ds" type="ds" path="REPOSITORY/test/Cash- Clear Cart.ds"/>
     <resource name="Cash- Refresh Cart.ds" type="ds" path="REPOSITORY/test/Cash- Refresh Cart.ds"/>
     <resource name="Cash- Discount.ds" type="ds" path="REPOSITORY/test/Cash- Discount.ds"/>
+    <resource name="Cash- Start New.ds" type="ds" path="{scenario}/Cash- Start New.ds"/>
+    <resource name="Cash- Ship Chrg Pay ty.ds" type="ds" path="{scenario}/Cash- Ship Chrg Pay ty.ds"/>
+    <resource name="Cash- Order search from Order History.ds" type="ds" path="{scenario}/Cash- Order search from Order History.ds"/>
+    <resource name="Cash- Return bin loc summ.ds" type="ds" path="{scenario}/Cash- Return bin loc summ.ds"/>
+    <resource name="Cash- Return History.ds" type="ds" path="{scenario}/Cash- Return History.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
@@ -182,6 +187,31 @@
         <run name="Untitled1" langtype="ds3" resource="Cash- Discount.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="Start New" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Start New.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
+    <testcase name="Ship Chrg Pay ty" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Ship Chrg Pay ty.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
+    <testcase name="Order Search from Order History" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Order search from Order History.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
+    <testcase name="Return bin loc summ" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Return bin loc summ.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
+    <testcase name="Return History" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Return History.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -196,6 +226,11 @@
       <testcase name="Clear Cart" users="1" totalexecutions="1"/>
       <testcase name="Refresh Cart" users="1" totalexecutions="1"/>
       <testcase name="Discount" users="1" totalexecutions="1"/>
+      <testcase name="Start New" users="1" totalexecutions="1"/>
+      <testcase name="Ship Chrg Pay ty" users="1" totalexecutions="1"/>
+      <testcase name="Order Search from Order History" users="1" totalexecutions="1"/>
+      <testcase name="Return bin loc summ" users="1" totalexecutions="1"/>
+      <testcase name="Return History" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

@@ -325,7 +325,7 @@
    <accessor type='click' value='button(4)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='Refresh' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>
@@ -333,7 +333,7 @@
    <accessor type='click' value='button(5)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='Refresh' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Refresh Order&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success[1]&quot;)' selected='false'/>

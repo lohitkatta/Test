@@ -153,11 +153,16 @@
    <accessor type='click' value='svg(10)' selected='false'/>
 </dialect>
 </step>
+<step action='wait' value='2000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='span(&quot;slds-media__body&quot;)' selected='true'/>
-   <accessor type='click' value='span(0, _in(div(&quot;borderBottomForItem slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta slds-media&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(div(&quot;borderBottomForItem slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta slds-media&quot;)))' selected='true'/>
    <accessor type='click' value='span(28)' selected='false'/>
+   <accessor type='click' value='span(&quot;slds-media__body&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

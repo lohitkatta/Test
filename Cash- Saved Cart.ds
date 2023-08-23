@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
 <fallback useFallback='true'/>
 <step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
@@ -142,20 +142,77 @@
    <accessor type='click' value='paragraph(6)' selected='false'/>
 </dialect>
 </step>
+<step action='setValue' value='"May 20, 2023"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-173&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;createdFrom&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-input-has-icon slds-input-has-icon_right&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(3)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='  3000' selected='true'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Search&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-size_3-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='button(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;resetEnabled&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;slds-m-left_small slds-p-top_x-small slds-size_3-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;Reset[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(&quot;Reset&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(6)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Jul 20, 2023"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-176&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;createdTo&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-input-has-icon slds-input-has-icon_right[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Search&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_neutral&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-size_3-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='button(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;resetEnabled&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;slds-m-left_small slds-p-top_x-small slds-size_3-of-12&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;Reset[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(&quot;Reset&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-datepicker&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;searchInput slds-form-element slds-p-right_small slds-size_4-of-12&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-datepicker&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 0, _in(button(&quot;Previous Month&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 0, _in(button(&quot;slds-button slds-button_icon slds-button_icon-container&quot;)))' selected='false'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 6)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;slds-day[17]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(cell(&quot;15&quot;)))' selected='false'/>
@@ -163,7 +220,7 @@
    <accessor type='click' value='span(29)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Search&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_neutral&quot;)' selected='false'/>
@@ -171,7 +228,7 @@
    <accessor type='click' value='button(5)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;resetEnabled&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(0, _in(div(&quot;slds-m-left_small slds-p-top_x-small slds-size_3-of-12[1]&quot;)))' selected='false'/>
@@ -180,20 +237,20 @@
    <accessor type='click' value='paragraph(6)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-datepicker&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;searchInput slds-form-element slds-size_4-of-12&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-datepicker&quot;, 1)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 0, _in(button(&quot;Previous Month&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 0, _in(button(&quot;slds-button slds-button_icon slds-button_icon-container&quot;)))' selected='false'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 6)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='span(&quot;slds-day[15]&quot;)' selected='true'/>
    <accessor type='click' value='span(0, _in(cell(&quot;10&quot;)))' selected='false'/>
@@ -201,7 +258,7 @@
    <accessor type='click' value='span(28)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Search&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_neutral&quot;)' selected='false'/>
@@ -209,7 +266,7 @@
    <accessor type='click' value='button(5)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;resetEnabled&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(0, _in(div(&quot;slds-m-left_small slds-p-top_x-small slds-size_3-of-12[1]&quot;)))' selected='false'/>

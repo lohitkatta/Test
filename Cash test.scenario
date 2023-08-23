@@ -47,7 +47,7 @@
     <resource name="Cash- Saved Cart.ds" type="ds" path="{scenario}/Cash- Saved Cart.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
+    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
@@ -129,6 +129,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>

@@ -44,9 +44,10 @@
     <resource name="Dealer- Return bin loc summ.ds" type="ds" path="REPOSITORY/test/Dealer- Return bin loc summ.ds"/>
     <resource name="Dealer- Ship Chrg Pay ty.ds" type="ds" path="REPOSITORY/test/Dealer- Ship Chrg Pay ty.ds"/>
     <resource name="Dealer- Return History.ds" type="ds" path="REPOSITORY/test/Dealer- Return History.ds"/>
+    <resource name="Cash- Saved Cart.ds" type="ds" path="{scenario}/Cash- Saved Cart.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
@@ -219,6 +220,11 @@
         <run name="Untitled1" langtype="ds3" resource="Dealer- Return History.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="Testcase15" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="Cash- Saved Cart.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -239,6 +245,7 @@
       <testcase name="Testcase13" users="1" totalexecutions="1"/>
       <testcase name="Testcase12" users="1" totalexecutions="1"/>
       <testcase name="Testcase14" users="1" totalexecutions="1"/>
+      <testcase name="Testcase15" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

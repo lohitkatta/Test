@@ -186,11 +186,11 @@
 </step>
 <step action='setValue' value='"7827482748"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-163&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[4]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(4)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-163&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='clickXY' value='"350,251"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

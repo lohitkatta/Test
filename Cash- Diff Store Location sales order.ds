@@ -100,21 +100,39 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;combobox-id-11-117&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//div[@class=&quot;slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right down-icon&quot;]&apos;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;slds-form-element&quot;)' selected='false'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(div(&quot;iconsearch slds-m-bottom_xxx-small&quot;)))' selected='false'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 1)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;combobox-id-11-117&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"Houston"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='span(&quot;Burlington Textiles Corp of America[13]&quot;)' selected='true'/>
+   <accessor type='setValue' value='byXPath(&apos;(//input[@class=&quot;slds-input&quot;])[2]&apos;)' selected='true'/>
    <accessor type='setValue' value='span(&quot;slds-truncate[14]&quot;)' selected='false'/>
    <accessor type='setValue' value='span(&quot;Houston[1]&quot;)' selected='false'/>
    <accessor type='setValue' value='span(48)' selected='false'/>
+   <accessor type='setValue' value='span(&quot;Burlington Textiles Corp of America[13]&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='  byXPath(&apos;//span[text()=&quot;Houston&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='' selected='false'/>
+</dialect>
+</step>
+<step action='takeWindowScreenshot' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='takeWindowScreenshot' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -122,7 +140,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"15E2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='setValue' value='"15E2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
@@ -130,7 +148,7 @@
    <accessor type='setValue' value='textbox(3)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
@@ -138,7 +156,7 @@
    <accessor type='click' value='button(11)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;15E2E1&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;textOverFlow[2]&quot;)' selected='false'/>
@@ -147,7 +165,7 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
@@ -155,7 +173,7 @@
    <accessor type='click' value='button(19)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Checkout&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
@@ -163,7 +181,7 @@
    <accessor type='click' value='button(20)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='radio(&quot;Cash-194&quot;)' selected='true'/>
    <accessor type='click' value='radio(&quot;fav_language&quot;)' selected='false'/>
@@ -173,7 +191,7 @@
    <accessor type='click' value='radio(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Simulate Order&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand&quot;)' selected='false'/>
@@ -181,7 +199,7 @@
    <accessor type='click' value='button(7)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Complete Payment&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>

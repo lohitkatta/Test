@@ -254,6 +254,30 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;customerPoFocus labelFontSize slds-form-element&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 0, _in(custom(&quot;lightning-layout-item&quot;, &quot;slds-large-size_2-of-12 slds-medium-size_6-of-12 slds-p-around_small slds-size_12-of-12 slds-small-size_3-of-12[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-input&quot;, 2)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"1234"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-156&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;customerPo&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(19)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>

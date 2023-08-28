@@ -150,11 +150,11 @@
 </step>
 <step action='setValue' value='"kim"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-183&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;FirstName&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[1]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;FirstName&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[1]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(1)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-183&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -166,11 +166,11 @@
 </step>
 <step action='setValue' value='"cook"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-185&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;LastName&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;LastName&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[2]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(2)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-185&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

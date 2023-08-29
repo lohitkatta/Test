@@ -203,7 +203,7 @@
    <accessor type='click' value='button(11)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"252,338"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"252,338"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;c-pos_custom-spinner&quot;, 1)' selected='true'/>
 </dialect>

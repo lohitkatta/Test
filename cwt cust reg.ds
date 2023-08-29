@@ -212,17 +212,17 @@
    <accessor type='click' value='custom(&quot;lightning-layout&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='drag' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='drag' value='custom(&quot;lightning-layout&quot;, &quot;slds-grid slds-wrap&quot;)' selected='true'/>
-   <accessor type='drag' value='custom(&quot;lightning-layout&quot;, 0, _in(custom(&quot;lightning-accordion-section&quot;, &quot;slds-accordion__list-item&quot;)))' selected='false'/>
-   <accessor type='drag' value='custom(&quot;lightning-layout&quot;, 0)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-layout&quot;, &quot;slds-grid slds-wrap&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-layout&quot;, 0, _in(custom(&quot;lightning-accordion-section&quot;, &quot;slds-accordion__list-item&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-layout&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='drop' value='"1363,455"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"1363,455"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content community_layout-column_column[1]&quot;)))' selected='true'/>
-   <accessor type='drop' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
+   <accessor type='click' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content community_layout-column_column[1]&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
 </dialect>
 </step>
 <step action='setValue' value='"300 smith street"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

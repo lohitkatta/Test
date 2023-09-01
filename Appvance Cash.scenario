@@ -45,6 +45,7 @@
     <resource name="UE Appvance Cash Return.ds" type="ds" path="REPOSITORY/test/UE Appvance Cash Return.ds"/>
     <resource name="UE Appvance Cash Ship Chrg.ds" type="ds" path="REPOSITORY/test/UE Appvance Cash Ship Chrg.ds"/>
     <resource name="UE Appvance Cash Start new.ds" type="ds" path="REPOSITORY/test/UE Appvance Cash Start new.ds"/>
+    <resource name="UE Appvance Cash Login .ds" type="ds" path="{scenario}/UE Appvance Cash Login .ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location=" http://localhost:8080/TMServer/ws/TestNode"/>
@@ -230,6 +231,11 @@
         <run name="Untitled1" langtype="ds3" resource="UE Appvance Cash Start new.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="login" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="UE Appvance Cash Login .ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -240,7 +246,6 @@
       <testcase name="Adding Parts" users="1" totalexecutions="1"/>
       <testcase name="Clear Cart" users="1" totalexecutions="1"/>
       <testcase name="Cust Reg" users="1" totalexecutions="1"/>
-      <testcase name="Customer Search" users="1" totalexecutions="1"/>
       <testcase name="diff store locations" users="1" totalexecutions="1"/>
       <testcase name="Discount" users="1" totalexecutions="1"/>
       <testcase name="misc" users="1" totalexecutions="1"/>
@@ -252,6 +257,7 @@
       <testcase name="return" users="1" totalexecutions="1"/>
       <testcase name="ship chrg" users="1" totalexecutions="1"/>
       <testcase name="start new" users="1" totalexecutions="1"/>
+      <testcase name="login" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

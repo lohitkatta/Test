@@ -12,7 +12,7 @@
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
 </step>
-<step action='setValue' value='"greg.terrell@kirbycorp.com.uatfull"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"appvancefdda@kirbycorp.com.uatfull"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='emailbox(&quot;username&quot;)' selected='true'/>
    <accessor type='setValue' value='emailbox(&quot;input mb16 mt8 r4 username wide&quot;)' selected='false'/>
@@ -70,7 +70,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"test ss"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"BAHAMAS MACK TRUCK SALES-DEALER"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>

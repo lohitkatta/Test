@@ -43,6 +43,7 @@
     <resource name="FDDA Appvance Dealer return.ds" type="ds" path="REPOSITORY/test/FDDA Appvance Dealer return.ds"/>
     <resource name="FDDA Appvance Dealer Ship Chrg.ds" type="ds" path="REPOSITORY/test/FDDA Appvance Dealer Ship Chrg.ds"/>
     <resource name="FDDA Appvance Dealer Start new.ds" type="ds" path="REPOSITORY/test/FDDA Appvance Dealer Start new.ds"/>
+    <resource name="FDDA Appvance Dealer Login .ds" type="ds" path="{scenario}/FDDA Appvance Dealer Login .ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location=" http://localhost:8080/TMServer/ws/TestNode"/>
@@ -218,6 +219,11 @@
         <run name="Untitled1" langtype="ds3" resource="FDDA Appvance Dealer Start new.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="login" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="FDDA Appvance Dealer Login .ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -238,6 +244,7 @@
       <testcase name="return" users="1" totalexecutions="1"/>
       <testcase name="ship chrg" users="1" totalexecutions="1"/>
       <testcase name="start new" users="1" totalexecutions="1"/>
+      <testcase name="login" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

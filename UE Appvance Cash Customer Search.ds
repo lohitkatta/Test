@@ -70,7 +70,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"Final Smoke"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"AAA WELL SERVICE"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
@@ -119,6 +119,233 @@
    <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
 </dialect>
 </step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"2270"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-44&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"7,6"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;testinng000@gmail.com&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(1, _in(div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"4,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"1564,33"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;c-pos_nav-header&quot;, &quot;dxpStyle_d5a6ea66-791d-410c-8030-dae072f51147&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;c-pos_nav-header&quot;, 0, _in(div(&quot;column-content lwc-48aostf02bd[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;c-pos_nav-header&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"testing testing"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-44&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 0, _in(div(&quot;borderRight&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;testinng000@gmail.com&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(1, _in(div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(7)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"5,2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"testinng000@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-44&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 0, _in(div(&quot;borderRight&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;testing testing&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-right_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"5,0"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"123456789"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-44&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"3,4"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='path(5)' selected='true'/>
+</dialect>
+</step>
+<step action='clickXY' value='"2,6"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='path(5)' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='paragraph(&quot;testing testing&quot;)' selected='true'/>
+   <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-right_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
+   <accessor type='click' value='paragraph(0, _in(div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)))' selected='false'/>
+   <accessor type='click' value='paragraph(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"6,3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='", millsap"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-44&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"1,3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
+   <accessor type='click' value='svg(5)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"134,4"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize[2]&quot;)' selected='true'/>
+   <accessor type='clickXY' value='div(2, _in(span(&quot;slds-media__body[2]&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(49)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"1296,298"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;c-pos_parts-entry-component&quot;, 0, _in(custom(&quot;c-pos_nav-header&quot;, &quot;dxpStyle_d5a6ea66-791d-410c-8030-dae072f51147&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;c-pos_parts-entry-component&quot;, 0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"6,7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
+   <accessor type='click' value='svg(4)' selected='false'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='CSS' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search by name, customer ID, contact, email, phone, address.&quot;)' selected='true'/>
@@ -127,7 +354,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -135,7 +362,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"52408"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"52408"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -143,13 +370,13 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"6,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"6,8"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
    <accessor type='click' value='svg(5)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;sai@gmail.com&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow[6]&quot;)' selected='false'/>
@@ -158,18 +385,18 @@
    <accessor type='click' value='paragraph(37)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"8,1"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"8,1"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
    <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
@@ -185,7 +412,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -193,7 +420,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"sai@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"sai@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -201,7 +428,7 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
@@ -209,7 +436,7 @@
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;sai@gmail.com&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
@@ -218,18 +445,18 @@
    <accessor type='click' value='paragraph(7)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 0, _in(span(&quot;Clear&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-icon&quot;, 4)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
@@ -245,7 +472,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -253,7 +480,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"8778737479"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"8778737479"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -261,7 +488,7 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
@@ -269,7 +496,7 @@
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;alignmentOfName slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize&quot;)' selected='true'/>
    <accessor type='click' value='div(2, _in(span(&quot;slds-media__body&quot;)))' selected='false'/>
@@ -277,17 +504,17 @@
    <accessor type='click' value='div(40)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='path(4)' selected='true'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
@@ -303,7 +530,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -311,7 +538,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"lohit kk"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"lohit kk"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -319,7 +546,7 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
@@ -327,7 +554,7 @@
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;sai@gmail.com&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
@@ -336,18 +563,18 @@
    <accessor type='click' value='paragraph(7)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"4,2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"4,2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
    <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
@@ -363,7 +590,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -371,7 +598,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='",5840 dahlia"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='",5840 dahlia"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -379,18 +606,18 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"13,19"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"13,19"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='div(&quot;borderRight&quot;)' selected='true'/>
    <accessor type='click' value='div(34)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"3,5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='"3,5"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='path(5)' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
@@ -398,7 +625,7 @@
    <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;sai@gmail.com&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow[24]&quot;)' selected='false'/>
@@ -407,18 +634,18 @@
    <accessor type='click' value='paragraph(132)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='true'/>
    <accessor type='click' value='svg(4)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>
@@ -434,7 +661,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Search customer by name, customer ID ,email,phone,address..&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInputBorder slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -442,7 +669,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"524085"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"524085"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-42&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input&quot;)' selected='false'/>
@@ -450,13 +677,13 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='mouseDownXY' value='"3,11"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='mouseDownXY' value='"3,11"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='mouseDownXY' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
    <accessor type='mouseDownXY' value='svg(5)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;sai@gmail.com&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-m-left_xx-small slds-m-top_xxx-small textOverFlow&quot;)' selected='false'/>
@@ -465,12 +692,12 @@
    <accessor type='click' value='paragraph(7)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='' type='web' desc='CSE' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='' type='web' desc='CSE' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value=' byXPath(&apos;(//span[@part=&quot;boundary&quot;])[1]&apos;) ' selected='true'/>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small&quot;)' selected='false'/>

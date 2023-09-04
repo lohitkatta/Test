@@ -130,6 +130,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -246,7 +249,6 @@
       <testcase name="Adding Parts" users="1" totalexecutions="1"/>
       <testcase name="Clear Cart" users="1" totalexecutions="1"/>
       <testcase name="Cust Reg" users="1" totalexecutions="1"/>
-      <testcase name="Customer Search" users="1" totalexecutions="1"/>
       <testcase name="diff store locations" users="1" totalexecutions="1"/>
       <testcase name="Discount" users="1" totalexecutions="1"/>
       <testcase name="Login" users="1" totalexecutions="1"/>
@@ -259,6 +261,7 @@
       <testcase name="return" users="1" totalexecutions="1"/>
       <testcase name="ship chrg" users="1" totalexecutions="1"/>
       <testcase name="Start new" users="1" totalexecutions="1"/>
+      <testcase name="Customer Search" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

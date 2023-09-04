@@ -44,6 +44,7 @@
     <resource name="SS Appvance CWT Return history.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT Return history.ds"/>
     <resource name="SS Appvance CWT return.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT return.ds"/>
     <resource name="SS Appvance CWT Ship Chrg.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT Ship Chrg.ds"/>
+    <resource name="SS Appvance CWT Customer Search.ds" type="ds" path="{scenario}/SS Appvance CWT Customer Search.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -128,6 +129,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -224,6 +228,11 @@
         <run name="Untitled1" langtype="ds3" resource="SS Appvance CWT Ship Chrg.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="Customer search" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="SS Appvance CWT Customer Search.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -245,6 +254,7 @@
       <testcase name="return history" users="1" totalexecutions="1"/>
       <testcase name="return" users="1" totalexecutions="1"/>
       <testcase name="ship chrg" users="1" totalexecutions="1"/>
+      <testcase name="Customer search" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

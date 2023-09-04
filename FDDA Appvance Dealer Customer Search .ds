@@ -134,7 +134,15 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='"1,4"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 0, _in(div(&quot;borderRight&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"1,4"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='svg(&quot;slds-icon slds-icon-text-default slds-icon_x-small[1]&quot;)' selected='true'/>
    <accessor type='click' value='svg(5)' selected='false'/>
@@ -269,9 +277,17 @@
    <accessor type='setValue' value='textbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='clickXY' value='"3,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='clickXY' value='path(5)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;Search[1]&quot;)' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, &quot;iconColor searchIcon slds-icon-utility-search slds-icon_container slds-m-vertical_xx-small slds-size_4-of-6 slds-text-align_center&quot;)' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 0, _in(div(&quot;borderRight&quot;)))' selected='false'/>
+   <accessor type='click' value='custom(&quot;lightning-icon&quot;, 1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='"3,8"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='path(5)' selected='true'/>
 </dialect>
 </step>
 <step action='clickXY' value='"150,17"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

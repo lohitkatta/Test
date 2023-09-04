@@ -243,11 +243,11 @@
 </step>
 <step action='setValue' value='"middletown"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-207&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;city&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[8]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;city&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[8]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(8)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-207&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -278,11 +278,11 @@
 </step>
 <step action='setValue' value='"585748"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-214&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;postalCode&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[9]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;postalCode&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[9]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(9)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-214&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

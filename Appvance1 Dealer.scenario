@@ -47,7 +47,7 @@
     <resource name="FDDA Appvance Dealer Start new.ds" type="ds" path="REPOSITORY/test/FDDA Appvance Dealer Start new.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
@@ -251,6 +251,7 @@
       <testcase name="ship chrg" users="1" totalexecutions="1"/>
       <testcase name="login" users="1" totalexecutions="1"/>
       <testcase name="start new" users="1" totalexecutions="1"/>
+      <testcase name="Customer Search" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

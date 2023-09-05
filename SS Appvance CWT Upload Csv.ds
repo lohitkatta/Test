@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
 <fallback useFallback='true'/>
 <step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
@@ -132,15 +132,31 @@
    <accessor type='click' value='button(&quot;Upload Order&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(21)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='file(&quot;Choose File&quot;)' selected='true'/>
+   <accessor type='click' value='file(&quot;form-button slds-m-left_small&quot;)' selected='false'/>
+   <accessor type='click' value='file(0, _in(div(&quot;cc_input_file chooseFile&quot;)))' selected='false'/>
+   <accessor type='click' value='file(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Upload Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
    <accessor type='click' value='button(16)' selected='false'/>
 </dialect>
 </step>
-<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/pos/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/pos/"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;customerPoFocus labelFontSize slds-form-element&quot;)))' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 2)' selected='false'/>
@@ -148,11 +164,11 @@
 </step>
 <step action='setValue' value='"444111"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-194&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;customerPo&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;customerPo&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[2]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(2)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-194&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

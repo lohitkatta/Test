@@ -155,7 +155,7 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;changeOwnerInput slds-form-element slds-m-vertical_xx-small validate&quot;)' selected='false'/>
@@ -163,7 +163,7 @@
    <accessor type='click' value='custom(&quot;lightning-input&quot;, 5)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"2955688"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"2955688"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;input-65&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
@@ -171,7 +171,7 @@
    <accessor type='setValue' value='textbox(3)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='button(&quot;slds-button slds-button_neutral[3]&quot;)' selected='true'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnsearchAndAdd slds-p-vertical_small&quot;)))' selected='false'/>
@@ -179,7 +179,7 @@
    <accessor type='click' value='button(11)' selected='false'/>
 </dialect>
 </step>
-<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='paragraph(&quot;Allison Transmission A63 Transmission Control Module (TCM)&quot;)' selected='true'/>
    <accessor type='click' value='paragraph(&quot;slds-listbox__option-meta slds-listbox__option-meta_entity slds-p-top_xx-small smallFontSize textOverFlow&quot;)' selected='false'/>

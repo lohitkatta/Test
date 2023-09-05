@@ -47,7 +47,7 @@
     <resource name="SS Appvance CWT Ship Chrg.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT Ship Chrg.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
@@ -129,6 +129,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -236,22 +239,22 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="start new" users="1" totalexecutions="1"/>
-      <testcase name="Add edit contact" users="1" totalexecutions="1"/>
-      <testcase name="Adding parts" users="1" totalexecutions="1"/>
-      <testcase name="clear cart" users="1" totalexecutions="1"/>
+      <testcase name="login" users="1" totalexecutions="1"/>
       <testcase name="cust reg" users="1" totalexecutions="1"/>
       <testcase name="customer search" users="1" totalexecutions="1"/>
-      <testcase name="diff store loaction" users="1" totalexecutions="1"/>
-      <testcase name="Discount" users="1" totalexecutions="1"/>
-      <testcase name="login" users="1" totalexecutions="1"/>
-      <testcase name="misc" users="1" totalexecutions="1"/>
-      <testcase name="order history" users="1" totalexecutions="1"/>
-      <testcase name="order summ" users="1" totalexecutions="1"/>
+      <testcase name="Add edit contact" users="1" totalexecutions="1"/>
+      <testcase name="Adding parts" users="1" totalexecutions="1"/>
       <testcase name="refresh cart" users="1" totalexecutions="1"/>
+      <testcase name="clear cart" users="1" totalexecutions="1"/>
+      <testcase name="start new" users="1" totalexecutions="1"/>
+      <testcase name="Discount" users="1" totalexecutions="1"/>
+      <testcase name="ship chrg" users="1" totalexecutions="1"/>
+      <testcase name="diff store loaction" users="1" totalexecutions="1"/>
+      <testcase name="misc" users="1" totalexecutions="1"/>
+      <testcase name="order summ" users="1" totalexecutions="1"/>
+      <testcase name="order history" users="1" totalexecutions="1"/>
       <testcase name="return history" users="1" totalexecutions="1"/>
       <testcase name="return" users="1" totalexecutions="1"/>
-      <testcase name="ship chrg" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

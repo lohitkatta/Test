@@ -47,7 +47,7 @@
     <resource name="SS Appvance CWT Ship Chrg.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT Ship Chrg.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://aiqatool.deloitte.com:/TMServer/ws/TestNode"/>
+    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>

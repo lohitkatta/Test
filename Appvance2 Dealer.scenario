@@ -129,6 +129,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>
@@ -236,22 +239,22 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="refresh cart" users="1" totalexecutions="1"/>
-      <testcase name="Add edit contact" users="1" totalexecutions="1"/>
-      <testcase name="Adding parts" users="1" totalexecutions="1"/>
-      <testcase name="clear cart" users="1" totalexecutions="1"/>
+      <testcase name="login" users="1" totalexecutions="1"/>
       <testcase name="Cust Reg" users="1" totalexecutions="1"/>
       <testcase name="Customer Search" users="1" totalexecutions="1"/>
+      <testcase name="Add edit contact" users="1" totalexecutions="1"/>
+      <testcase name="Adding parts" users="1" totalexecutions="1"/>
+      <testcase name="refresh cart" users="1" totalexecutions="1"/>
+      <testcase name="clear cart" users="1" totalexecutions="1"/>
+      <testcase name="Start new" users="1" totalexecutions="1"/>
+      <testcase name="Ship chrg" users="1" totalexecutions="1"/>
       <testcase name="diff store locations" users="1" totalexecutions="1"/>
       <testcase name="Discount" users="1" totalexecutions="1"/>
-      <testcase name="login" users="1" totalexecutions="1"/>
       <testcase name="misc" users="1" totalexecutions="1"/>
       <testcase name="order history" users="1" totalexecutions="1"/>
       <testcase name="order summ" users="1" totalexecutions="1"/>
       <testcase name="return history" users="1" totalexecutions="1"/>
       <testcase name="return" users="1" totalexecutions="1"/>
-      <testcase name="Ship chrg" users="1" totalexecutions="1"/>
-      <testcase name="Start new" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

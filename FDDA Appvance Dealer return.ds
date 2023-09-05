@@ -165,6 +165,29 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 0, _in(custom(&quot;lightning-input&quot;, &quot;customerPoFocus labelFontSize slds-form-element&quot;)))' selected='true'/>
+   <accessor type='click' value='custom(&quot;lightning-primitive-input-simple&quot;, 2)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"223344"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;input-182&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;slds-input[2]&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;customerPo&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Checkout&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(20)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
    <accessor type='click' value='button(&quot;Checkout&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;checkout-button footer-checkout-button-enabled slds-m-left_x-small&quot;)))' selected='false'/>

@@ -30,6 +30,7 @@
   </basics>
   <resources>
     <resource name="SS Appvance CWT login.ds" type="ds" path="REPOSITORY/test/SS Appvance CWT login.ds"/>
+    <resource name="UE Appvance Cash Ship Chrg.ds" type="ds" path="{scenario}/UE Appvance Cash Ship Chrg.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -140,6 +141,11 @@
         <run name="Untitled1" langtype="ds3" resource="SS Appvance CWT login.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
+    <testcase name="Ship chrg" importance="normal">
+      <test>
+        <run name="Untitled1" langtype="ds3" resource="UE Appvance Cash Ship Chrg.ds" method="ds" testclass="Chrome"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -147,6 +153,7 @@
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
       <testcase name="login test" users="1" totalexecutions="1"/>
+      <testcase name="Ship chrg" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>

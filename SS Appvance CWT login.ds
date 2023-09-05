@@ -39,6 +39,11 @@
    <accessor type='click' value='form(0)' selected='false'/>
 </dialect>
 </step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
 <step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/posvforcesite/secur/frontdoor.jsp?sid=00D7h0000004m7H%21AQEAQAvGY5PnDA6IstM3kbvUn2dBWM2frIaOH8.lQ5Su6z5AIYuZNC1AijtYqRqhrjTjmH.7jcp8i_12B_4ikXhUxl3zur3U&amp;retURL=%2Fposvforcesite%2Fapex%2FCommunitiesLanding&amp;apv=1&amp;allp=1&amp;untethered=&amp;cshc=h000005OnbZh0000004m7H&amp;refURL=https%3A%2F%2Fkirbycorp--uatfull.sandbox.my.site.com%2Fposvforcesite%2Fsecur%2Ffrontdoor.jsp"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>

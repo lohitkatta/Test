@@ -155,11 +155,11 @@
 </step>
 <step action='setValue' value='"eig@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-127&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;email&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[3]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;email&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[3]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(3)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-127&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -171,11 +171,11 @@
 </step>
 <step action='setValue' value='"4987397472"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-132&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;Phone&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[4]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(4)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-132&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='clickXY' value='"365,291"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

@@ -127,11 +127,11 @@
 </step>
 <step action='setValue' value='"15E2E1"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-209&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;quickorder-sku&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[4]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;quickorder-sku&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[4]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(5)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-209&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -142,11 +142,11 @@
 </step>
 <step action='setValue' value='"15E2E1"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setValue' value='textbox(&quot;input-216&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;quickorder-sku[1]&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;slds-input[6]&quot;)' selected='false'/>
-   <accessor type='setValue' value='textbox(&quot;quickorder-sku[1]&quot;)' selected='false'/>
    <accessor type='setValue' value='textbox(0, _in(div(&quot;slds-form-element__control slds-grow[6]&quot;)))' selected='false'/>
    <accessor type='setValue' value='textbox(7)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;input-216&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>

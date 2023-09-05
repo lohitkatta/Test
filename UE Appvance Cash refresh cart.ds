@@ -155,6 +155,11 @@
    <accessor type='click' value='paragraph(14)' selected='false'/>
 </dialect>
 </step>
+<step action='wait' value='3000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='click' value='custom(&quot;lightning-input&quot;, &quot;Enter Part name or SKU number&quot;)' selected='true'/>

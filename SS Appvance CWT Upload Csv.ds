@@ -132,10 +132,81 @@
    <accessor type='click' value='button(&quot;Upload Order&quot;)' selected='true'/>
    <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
    <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(16)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='4000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
    <accessor type='click' value='button(21)' selected='false'/>
 </dialect>
 </step>
-<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='wait' value='4000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='file(&quot;Choose File&quot;)' selected='true'/>
+   <accessor type='click' value='file(&quot;form-button slds-m-left_small&quot;)' selected='false'/>
+   <accessor type='click' value='file(0, _in(div(&quot;cc_input_file chooseFile&quot;)))' selected='false'/>
+   <accessor type='click' value='file(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Upload Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(16)' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://kirbycorp--uatfull.sandbox.my.site.com/pos/"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Refresh Cart&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[3]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;footer-refresh-button-enabled&quot;)))' selected='false'/>
+   <accessor type='click' value='button(195)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Upload CSV&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_outline-brand[2]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;btnOutlineGreen slds-m-left_small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(13)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='file(&quot;Choose File&quot;)' selected='true'/>
+   <accessor type='click' value='file(&quot;form-button slds-m-left_small&quot;)' selected='false'/>
+   <accessor type='click' value='file(0, _in(div(&quot;cc_input_file chooseFile&quot;)))' selected='false'/>
+   <accessor type='click' value='file(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;Upload Order&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;slds-button slds-button_success&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(custom(&quot;lightning-button&quot;, &quot;createButtonTextColor slds-m-left_x-small&quot;)))' selected='false'/>
+   <accessor type='click' value='button(21)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='wait' value='' selected='true'/>
 </dialect>
